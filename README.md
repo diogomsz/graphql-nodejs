@@ -1,6 +1,6 @@
 # GraphQL :rocket:
 
-> RRepository of GraphQL projects, tests and studies
+> Repository of GraphQL projects, tests and studies
 
 ## Technologies and Tools :wrench:
 
@@ -21,7 +21,7 @@ npm install apollo-server graphql
 > If you need to install dependencies on your project
 
 ```
-cd <pasta>
+cd <directory>
 npm install
 ```
 
