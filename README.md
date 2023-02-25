@@ -1,4 +1,4 @@
-# GraphQL | https://graphql.org
+# GraphQL :rocket:
 
 > Repositório de projetos, testes e estudos de GraphQL
 
