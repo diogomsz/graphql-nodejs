@@ -44,8 +44,7 @@ npx https://github.com/luizomf/eslint-prettier
 "dependencies": {
   "apollo-server": "^3.11.1",
   "graphql": "^16.6.0"
-},
-...
+}
 ```
 
 ## devDependencies
