@@ -1,38 +1,38 @@
 # GraphQL :rocket:
 
-> Repositório de projetos, testes e estudos de GraphQL
+> RRepository of GraphQL projects, tests and studies
 
-## Tecnologias e Ferramentas :wrench:
+## Technologies and Tools :wrench:
 
 - Visual Studio Code
 - Apollo Server
 - GraphQL
 
-## Comandos Úteis :book:
+## Commands :book:
 
-> Caso deseje começar um projeto do zero
+> If you want to start a project from scratch
 
 ```
-cd <pasta>
+cd <directory>
 npm init -y
-npm install apollo-server graphql ()
+npm install apollo-server graphql
 ```
 
-> Caso necessite instalar as dependências
+> If you need to install dependencies on your project
 
 ```
 cd <pasta>
 npm install
 ```
 
-> Em vez de usar npm install, podemos fazer da seguinte forma
+> Instead of using npm install we can do it like this
 
 ```
-npm i <pacotes>
+npm i <packages>
 npm i
 ```
 
-## Configurar ESLint e Prettier :keyboard:
+## Configure ESLint and Prettier :keyboard:
 
 ```
 npx https://github.com/luizomf/eslint-prettier
