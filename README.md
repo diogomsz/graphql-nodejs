@@ -31,3 +31,9 @@ npm install
 npm i <pacotes>
 npm i
 ```
+
+## Configurar ESLint e Prettier
+
+```
+npx https://github.com/luizomf/eslint-prettier
+```
