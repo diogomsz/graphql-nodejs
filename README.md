@@ -2,13 +2,13 @@
 
 > Repositório de projetos, testes e estudos de GraphQL
 
-## Tecnologias e Ferramentas
+## Tecnologias e Ferramentas :tools:
 
 - Visual Studio Code
 - Apollo Server
 - GraphQL
 
-## Comandos Úteis
+## Comandos Úteis :commands:
 
 > Caso deseje começar um projeto do zero
 
