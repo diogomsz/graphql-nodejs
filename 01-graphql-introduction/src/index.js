@@ -8,6 +8,7 @@ const server = new ApolloServer({
       age: Int
       height: Float
       married: Boolean!
+      arrayString: [String]!
     }
   `,
   resolvers: {
@@ -17,6 +18,7 @@ const server = new ApolloServer({
       age: () => 20,
       height: () => 1.75,
       married: () => false,
+      arrayString: () => ['Diogo', 'Martins'],
     },
   },
 });
