@@ -4,7 +4,7 @@ const server = new ApolloServer({
   typeDefs: gql`
     type Query {
       id: ID
-      name: String
+      name: String!
       age: Int
       height: Float
       married: Boolean!
