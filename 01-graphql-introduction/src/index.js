@@ -5,12 +5,16 @@ const server = new ApolloServer({
     type Query {
       id: ID
       name: String
+      age: Int
+      height: Float
     }
   `,
   resolvers: {
     Query: {
-      id: () => 1,
+      id: () => '123id',
       name: () => 'Diogo Martins de Assis',
+      age: () => 20,
+      height: () => 1.75,
     },
   },
 });
