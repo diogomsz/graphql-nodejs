@@ -2,14 +2,14 @@ import { ApolloServer, gql } from 'apollo-server';
 
 const server = new ApolloServer({
   typeDefs: gql`
-    type Query {
-      user: User!
-      users: [User!]!
-    }
-
     type User {
       id: ID!
       userName: String
+    }
+
+    type Post {
+      id: ID!
+      title: String!
     }
   `,
   resolvers: {
