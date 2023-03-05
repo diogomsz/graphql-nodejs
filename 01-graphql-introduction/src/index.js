@@ -4,6 +4,7 @@ const server = new ApolloServer({
   typeDefs: gql`
     type Query {
       user: User!
+      users: [User!]!
     }
 
     type User {
@@ -15,9 +16,25 @@ const server = new ApolloServer({
     Query: {
       user: () => {
         return {
-          id: 'diogomsz1',
-          userName: 'Diogo Martins de Assis',
+          id: '1',
+          userName: 'Diogo',
         };
+      },
+      users: () => {
+        return [
+          {
+            id: '1',
+            userName: 'Diogo',
+          },
+          {
+            id: '2',
+            userName: 'Maria',
+          },
+          {
+            id: '3',
+            userName: 'Lucas',
+          },
+        ];
       },
     },
   },
